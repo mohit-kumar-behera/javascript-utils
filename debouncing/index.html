@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debounding Example</title>
+    <script defer type="module" src="app.js"></script>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+      body > * {
+        margin-bottom: 3rem;
+      }
+      .input-box,
+      .output-box {
+        padding: 0.6rem 1.5rem;
+        font-size: 1.6rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Debouncing Example</h1>
+    <h4>Input</h4>
+    <input type="text" class="input-box" />
+    <h4>Output</h4>
+    <textarea rows="8" disabled class="output-box"></textarea>
+  </body>
+</html>
